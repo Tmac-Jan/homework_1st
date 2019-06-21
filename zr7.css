@@ -1,0 +1,108 @@
+* {
+	font-family: "微软雅黑";
+}
+header{
+	padding-left: 5%;
+
+}
+body{
+	background-image: url("./img/0.jpg");
+	background-position: center top;margin-top: 0;
+	background-attachment: fixed;
+	background-size: 1280px 720px;
+	background-size: cover;
+}
+li
+{
+	
+	position:relative;
+	margin:10px 3px;
+	display: inline;
+}
+a{
+	text-decoration: none;
+	color:#F0E9E9
+}
+a:hover{color:#A9A5A5}
+h1 {
+	font-weight: 700;
+	margin: .67em 0;
+  font-size: 8em;
+	text-align: center;
+	color:#EBE3E3
+}
+h1 strong {
+	font-weight: 900;
+}
+.profile{
+	font-size: 1em;
+	text-align: center;
+	color:#ECEAEA;
+	font-weight: bold;
+}
+#p1 img{
+	border-radius:50%
+}
+#p2{
+	margin-top: 60px;
+	font-size: 2em;
+}
+#p4{
+	color: white;
+	/*margin-top: 80px;*/
+	text-align: center;
+}
+
+footer{
+	top:250px;
+	text-align: center;
+	position: relative;
+	color:#FAF6F6;
+}
+nav{
+	float: right;
+	padding: 4px;
+	padding-right: 1%;
+	<!--padding-left: 900px;-->
+	padding-top: 3%;
+}
+.selected{
+    font-size: 20px;
+}
+.navbar-brand {
+	font-weight: 600;
+	padding: 2px 3px;
+	font-size: 16px;
+	color: #fff;
+		<!--outline: 0;-->
+}
+#s1{
+	position: relative;
+	right:980px;
+}
+.nav1{
+	
+	
+}
+.miantext{
+	position: relative;
+		top:100px;
+	display: inline-block;
+	
+}
+.brand-heading{
+		color: #F4D03F;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+}
+
+@-webkit-keyframes greenPulse {
+	from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+	50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+	to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+}
+a.green.button {
+	-webkit-animation-name: greenPulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+}
